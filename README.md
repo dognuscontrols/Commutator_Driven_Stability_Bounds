@@ -69,3 +69,7 @@ The one committed reference file is **`results/sweep_reference.csv`** — the ex
 ## Options
 
 All parameters live in the `Options` struct (see its docstring), including grid resolution (`gridN`, `alpha_min`), the sweep and table rows (`r_values`, `table_r_values`), SDP conditioning (`epsP`), bisection tolerances and caps for `eta`, `tau`, and the Floquet threshold, output file names, and metric toggles (`run_constant_metric`, `run_affine_metric`).
+
+## License
+
+This code is released under the MIT License. See [LICENSE](LICENSE).
