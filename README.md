@@ -1,4 +1,4 @@
-# Three-Mode Sweep
+
 
 [![arXiv](https://img.shields.io/badge/arXiv-2607.05829-b31b1b.svg)](https://arxiv.org/abs/2607.05829)
 [![DOI](https://img.shields.io/badge/DOI-10.1109%2FLCSYS.2026.3708744-blue.svg)](https://doi.org/10.1109/LCSYS.2026.3708744)
