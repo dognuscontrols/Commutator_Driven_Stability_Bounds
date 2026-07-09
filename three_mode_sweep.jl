@@ -75,7 +75,10 @@ function run_three_mode_sweep(; opts::Options = Options())
 
     if opts.write_csv
         write_summary_csv(opts.summary_csv, results, opts)
+        logmsg(opts, 1, "Wrote summary CSV: $(abspath(opts.summary_csv))")
+        
         write_paper_table_csv(opts.table_csv, results, opts)
+        logmsg(opts, 1, "Wrote table CSV: $(abspath(opts.table_csv))")
     end
 
     return (
