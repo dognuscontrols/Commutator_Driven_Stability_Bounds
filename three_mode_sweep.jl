@@ -357,7 +357,7 @@ function verify_certificate(A, grid::AbstractMatrix, cert, mode::Symbol, opts::O
         feasible[j] = eigmax(Symmetric(L)) <= opts.verify_tol
     end
 
-    return merge(cert, (success = any(feasible), feasible_alpha = feasible))
+    return merge(cert, (success = all(feasible), feasible_alpha = feasible))
 end
 
 function sampled_tau_star(A, grid::AbstractMatrix, cert, mode::Symbol, opts::Options)
